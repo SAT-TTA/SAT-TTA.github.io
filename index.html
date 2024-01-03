@@ -1,1 +1,139 @@
+<!DOCTYPE html>
+<html>
 
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>xDIO</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <base href="/"> -->
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Didact+Gothic" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+
+    <script src="js/app.js"></script>
+</head>
+
+<body font-family: 'Didact Gothic'>
+    <div class="container">
+        <div class="row">
+            <h1 class="col-md-12 text-center" font-family: 'Didact Gothic'>
+              Source-Free Online Domain Adaptive Semantic Segmentation of Satellite Images under Image Degradation</br>
+                <small>
+                    IEEE International Conference on Acoustics, Speech and Signal Processing , 2024</br>
+                </small>    
+        
+            </h1>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://vcg.ece.ucr.edu/people/fahim-faisal-niloy">
+                            Fahim Faisal Niloy
+                        </a>
+                      </br>UC Riverside
+                    </li>
+                    <li>
+                        <a href="https://kishor-bhaumik.github.io/">
+                          Kishor Kumar Bhaumik
+                        </a>
+                        </br> Sungkyunkwan University, South Korea
+                    </li>
+                    <li>
+                        <a href="https://dash-lab.github.io/About/">
+                          Simon S. Woo
+                        </a>
+                      </br> Sungkyunkwan University, South Korea
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Abstract
+                </h3>
+                <p class="text-justify" font-family: 'Didact Gothic'> In this paper, we address source-free and online domain adaptation, i.e., test-time adaptation (TTA), for satellite images subject to various forms of image degradation. Towards achieving this goal, we propose a novel TTA approach involving two effective strategies. First, we progressively estimate the global Batch Normalization (BN) statistics of the target distribution with incoming data stream. Leveraging these statistics during inference has the ability to effectively reduce domain gap. Furthermore, we enhance prediction quality by refining the predicted masks using global class centers. Both strategies employ dynamic momentum for fast and stable convergence. Notably, our method is back-propagation-free and hence fast and lightweight, making it highly suitable for on-the-fly adaptation to new domain. Through comprehensive experiments across various domain adaptation scenarios, we demonstrate the robust performance of our method.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Downloads
+                </h3>
+                <b>Paper:</b> <a href="https://arxiv.org/abs/2105.10037"> https://arxiv.org/abs/2105.10037</a> </br>
+                <b>Code:</b> Coming soon!
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    BibTeX
+                </h3>
+                <p class="text-justify">
+                  <font face="Courier New">
+                      
+                        @InProceedings{pmlr-v139-raychaudhuri21a, </br>
+                        &nbsp;title = 	 {Cross-domain Imitation from Observations}, </br>
+                        &nbsp;author =       {Raychaudhuri, Dripta S. and Paul, Sujoy and Vanbaar, Jeroen and Roy-Chowdhury, Amit K.}, </br>
+                        &nbsp;booktitle = 	 {Proceedings of the 38th International Conference on Machine Learning}, </br>
+                        &nbsp;pages = 	 {8902--8912}, </br>
+                        &nbsp;year = 	 {2021} </br>
+                         
+                 
+<!--                 @InProceedings{dripta2021icml, </br>
+                  &nbsp; title={Cross-domain Imitation from Observations}, </br>
+                  &nbsp; author={{Raychaudhuri, Dripta S. and Paul, Sujoy and Jeroen, van Baar and Roy-Chowdhury, Amit K.},, </br>
+                  &nbsp; booktitle = {--},</br>
+                  &nbsp; pages = {--},</br>
+                  &nbsp; month = {--},</br>
+                  &nbsp; year={--} </br>
+                } -->
+                  </font>
+              </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3 font-family: 'Didact Gothic'>
+                    Acknowledgements
+                </h3>
+                <p class="text-justify" font-family: 'Didact Gothic'>
+                This work was supported by Institute of Information \& communications Technology Planning \& Evaluation (IITP) grant by the Korea government (MSIT) (No.RS-2023-00230337,Advanced and Proactive AI Platform Research and Development Against Malicious Deepfakes).
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <p class="text-justify" font-family: 'Didact Gothic'>
+                <center style="font-size:10px"><b>Credits:</b> Template of this webpage from <a href="http://www.mgharbi.com/">
+                    here.
+                </a></center>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
